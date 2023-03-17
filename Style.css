@@ -1,0 +1,42 @@
+#div-imagen-fondo{
+	background-image: url(img/fondo-pa-carpeta.jpg);
+}
+#principal {
+	border: solid 5px darkgray;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 0 auto;
+	width: 85%;
+	background: grey;
+	font-family: arial;
+}
+
+fieldset {
+	margin-bottom: 10px;
+	background: #C0C0C0;
+}
+
+legend {
+	border: solid 1px #b5d5f8;
+	border-radius: 10px;
+	font-weight: bold;
+	background: #d2b48c;
+}
+
+#foto {
+	border: solid 3px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.box__modify__boxing {
+	margin: 10px;
+	border: solid 1px;
+	border-radius: 5px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@media only screen and(max-width: 800px)
